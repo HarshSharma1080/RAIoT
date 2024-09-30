@@ -1,3 +1,6 @@
+// in this program we will blink multiple leds, here we have taken 2, we can adjust the code according to the nnumber of leds
+// the led will glow for the delay time that is 500 milliseconds and then it will turn off then the other led will glow this pattern will continue in loop 
+// here we are using pin 2 and pin 3 digital pins for the leds
 // Define the pin numbers for the LEDs
 int led1 = 2;  // LED 1 connected to pin 2
 int led2 = 3;  // LED 2 connected to pin 3
@@ -24,8 +27,5 @@ void loop() {
   delay(delayTime);
   digitalWrite(led2, LOW);
 
-  // Turn on LED 3, then off
-  // digitalWrite(led3, HIGH);
-  // delay(delayTime);
-  // digitalWrite(led3, LOW);
+
 }
