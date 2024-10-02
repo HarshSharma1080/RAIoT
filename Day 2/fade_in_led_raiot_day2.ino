@@ -1,6 +1,10 @@
 //in this program we will decrease the brightness of the led slowly and then increase slowly that is fade in and fade out
 //we will be using the pin 9 , which is a analog pin, to control the led
-//
+/* first the brightness of the led will be zero as defined in the beginning then the fadeamount will be added to the brightness
+and the led will glow with the updated brightness, untill the brightness limits reach like 0 and 255, if the limit reaches the sign of the
+fademount will be reversed and will be added to the brightness so that it can increase now if it was decreasing before or 
+it can decrease now if it was increasing before, in this way it will continue forever untill we make it stop */
+
 int ledPin = 9;       // The pin the LED is connected to
 int brightness = 0;   // Brightness level (starts at 0, meaning off)
 int fadeAmount = 5;   // How much to increase/decrease brightness by each step
