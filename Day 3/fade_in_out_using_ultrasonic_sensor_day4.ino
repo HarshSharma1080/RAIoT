@@ -1,6 +1,9 @@
-#define TRIG_PIN 9    // TRIG connected to digital pin 9
-#define ECHO_PIN 10   // ECHO connected to digital pin 10
-#define LED_PIN 6     // LED connected to digital pin 6 (PWM pin)
+/*in this program we will see how to control the fade in and fade out of the the led using the distance measured by the ultrasonic sensor */
+//nearer an object brighter the led is, farther an object dimmer the led is //
+
+define TRIG_PIN 9    // TRIG connected to digital pin 9
+define ECHO_PIN 10   // ECHO connected to digital pin 10
+define LED_PIN 6     // LED connected to digital pin 6 (PWM pin)
 
 void setup() {
   // Initialize serial communication
