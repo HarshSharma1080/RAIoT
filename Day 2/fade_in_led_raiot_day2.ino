@@ -1,3 +1,6 @@
+//in this program we will decrease the brightness of the led slowly and then increase slowly that is fade in and fade out
+//we will be using the pin 9 , which is a analog pin, to control the led
+//
 int ledPin = 9;       // The pin the LED is connected to
 int brightness = 0;   // Brightness level (starts at 0, meaning off)
 int fadeAmount = 5;   // How much to increase/decrease brightness by each step
