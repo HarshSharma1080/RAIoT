@@ -2,7 +2,7 @@
 //we will turn it on for 1 second and the turn off for next 1 second and this will continue in the loop
 // the setup function runs once when you press reset or power the board
 // the led is controlled using the pin 10 which is a digital pin in arduino uno
-
+ 
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(10, OUTPUT);
