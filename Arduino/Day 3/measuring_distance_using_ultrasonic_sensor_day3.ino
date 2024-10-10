@@ -1,4 +1,8 @@
-// Set up pins for Ultrasonic Sensor
+/* In this we will be simply measuring the distance using the ultrasonic sensor and display it on seriol moniter. first we should set the trigpin to low, so that it 
+can function properly the we should set the trigpin to high for 10 microsecond and then low, then the echo pin will be set to high when receives a wave of sound before
+completely comming back from the object and when the echo pin receives the signal emmited by trig pin and reflected from the object the echo pin becomes low, 
+now the pulseIn records the time it took the signal to go from the trig pin and reflect to the echo pin and saves it to the duration variable so that we 
+can use it later as we want to */
 const int trigPin = 9;  // TRIG pin sends the signal
 const int echoPin = 10; // ECHO pin receives the signal
 
